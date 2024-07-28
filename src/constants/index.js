@@ -31,13 +31,18 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Academic Journey",
+    title: "Academic Journey",
+  },
+  {
+    id: "Projects",
+    title: "projects",
   },
   {
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -46,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Blockchain Developer",
     icon: mobile,
   },
   {
@@ -54,8 +59,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Data Analyst",
+    icon: web,
   },
 ];
 
@@ -116,55 +121,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Academic Foundations:",
+    company_name: "Exploring Development ",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "In 2020, I began my B.Tech in Computer Science at Rashtrakavi Ramdhari Singh Dinkar College of Engineering. During this initial year, I focused on building a solid foundation in programming languages such as Java and Python, alongside learning the basics of web development, including HTML, CSS, and JavaScript. This period laid the groundwork for my future technical endeavors.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Mern Stack Development",
+    company_name: "Proficiency in full stack development",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "he year 2022 marked a period of specialized learning. I undertook advanced coursework in Digital Image Processing, Wireless Communication Technology, and Data Warehousing and Business Analysis. These studies included image enhancement techniques, wireless network configurations, and data warehouse architecture. My hands-on experience was further enriched by an internship, where I applied my academic knowledge to real-world projects. Additionally, I explored data mining extensively, gaining expertise in data preprocessing, cleaning, classification, and clustering.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "CodeSoft",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "DIn 2023, I advanced my practical experience and professional development through two key internships—one in MERN stack development, focusing on full-stack web applications, and another in Data Science at CodeSoft, gaining hands-on experience in data analysis and machine learning.I also completed several advanced courses and earned certifications from NPTEL, Salesforce, Cisco CCNA, and Cybersecurity. These achievements deepened my technical skills and enhanced my soft skills, preparing me for diverse challenges in the tech industry.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Blockchain Development",
+    company_name: "SwasthyaChain",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "In 2024, I completed two major projects: Swasthychain, a blockchain-based Electronic Health Record (EHR) system, and Vidyodaya, an Indian-origin edtech platform. Through these projects, I developed strong interpersonal and intrapersonal skills. Additionally, I worked on DevOps practices, focusing on tools and technologies such as Docker, Postman, and CI/CD pipeline system design.",
     ],
   },
 ];
@@ -172,7 +165,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "His technical skills in blockchain development and React.js were pivotal. His innovative approach and teamwork made him an invaluable asset",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,48 +173,53 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "His technical skills  were outstanding. His innovative approach and teamwork significantly contributed to the project's success.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    company: "CodeSoft",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Prince dedication and technical acumen were pivotal. His ability to tackle complex challenges made him an invaluable team member.",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "ContechHub",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SwasthyaChain",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SwasthyaChain is an EHR system using React.js for the frontend and Solidity for blockchain-based secure storage. It integrates MetaMask and Truffle, addressing integration challenges through refined API communication.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "IPFS",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Solidity",
+        color: "yellow-text-gradient",
+      },
+     
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shrivastava-26/SwasthyaChain",
   },
   {
-    name: "Job IT",
+    name: "VidyoDaya",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Vidyodaya is an edtech platform offering interactive content, adaptive learning, and community features. It enhances educational engagement tutorials focusing on personalized and collaborative learning experiences.",
     tags: [
       {
         name: "react",
@@ -232,17 +230,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Nodejs",
         color: "pink-text-gradient",
+      },
+       {
+        name: "Mongodb",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://vidyodayam.vercel.app",
   },
   {
-    name: "Trip Guide",
+    name: "Swasthika",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Swasthika is Electronic Medical Records (EMR) Project digitizes patient data using MERN Stack. It provides customizable healthcare management modules and tackles challenges in data security and scalability.",
     tags: [
       {
         name: "nextjs",
@@ -253,12 +255,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Expressjs",
         color: "pink-text-gradient",
+      },
+       {
+        name: "Mysql",
+        color: "Red-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shrivastava-26/Swasthika",
   },
 ];
 
