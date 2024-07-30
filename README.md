@@ -107,7 +107,7 @@ Create a new file named `.env` in the root of your project and add the following
 
 ```env
 REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id    template_45ru88r
 REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
 ```
 
