@@ -1,5 +1,5 @@
-import React from "react";
-// import Tilt from "react-tilt";
+import React, { useRef, useEffect } from "react";
+import VanillaTilt from 'vanilla-tilt';
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -16,14 +16,26 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const tiltRef = useRef(null);
+
+  useEffect(() => {
+    VanillaTilt.init(tiltRef.current, {
+      max: 45,
+      scale: 1,
+      speed: 450,
+    });
+
+    return () => {
+      if (tiltRef.current?.vanillaTilt) {
+        tiltRef.current.vanillaTilt.destroy();
+      }
+    };
+  }, []);
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <div
+        ref={tiltRef}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -62,7 +74,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
