@@ -1,3 +1,4 @@
+import React from "react";
 import {
   mobile,
   backend,
@@ -47,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Reactjs",
+    icon: reactjs,
   },
   {
-    title: "Blockchain Developer",
-    icon: mobile,
+    title: "Nodejs",
+    icon: nodejs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mongodb",
+    icon: mongodb,
   },
   {
-    title: "Data Analyst",
+    title: "Blockchain",
     icon: web,
   },
 ];
@@ -127,7 +128,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2020 - April 2021",
     points: [
-      "In 2020, I began my B.Tech in Computer Science at Rashtrakavi Ramdhari Singh Dinkar College of Engineering. During this initial year, I focused on building a solid foundation in programming languages such as Java and Python, alongside learning the basics of web development, including HTML, CSS, and JavaScript. This period laid the groundwork for my future technical endeavors.",
+      "In 2020, I began my B.Tech in Computer Science at Rashtrakavi Ramdhari Singh Dinkar College of Engineering. During this initial year, I focused on building a solid foundation in programming languages such as java, c, c++, alongside learning the basics of web development, including HTML, CSS, and JavaScript. This period laid the groundwork for my future technical endeavors.",
     ],
   },
   {
@@ -137,7 +138,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "April 2021 - Feb 2022",
     points: [
-      "he year 2022 marked a period of specialized learning. I undertook advanced coursework in Digital Image Processing, Wireless Communication Technology, and Data Warehousing and Business Analysis. These studies included image enhancement techniques, wireless network configurations, and data warehouse architecture. My hands-on experience was further enriched by an internship, where I applied my academic knowledge to real-world projects. Additionally, I explored data mining extensively, gaining expertise in data preprocessing, cleaning, classification, and clustering.",
+      "In the year 2022 marked a period of specialized learning. I undertook advanced coursework in Digital Image Processing, Wireless Communication Technology, and Data Warehousing and Business Analysis. These studies included image enhancement techniques, wireless network configurations, and data warehouse architecture. My hands-on experience was further enriched by an internship, where I applied my academic knowledge to real-world projects. Additionally, I explored data mining extensively, gaining expertise in data preprocessing, cleaning, classification, and clustering.",
     ],
   },
   {
@@ -147,7 +148,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "DIn 2023, I advanced my practical experience and professional development through two key internships—one in MERN stack development, focusing on full-stack web applications, and another in Data Science at CodeSoft, gaining hands-on experience in data analysis and machine learning.I also completed several advanced courses and earned certifications from NPTEL, Salesforce, Cisco CCNA, and Cybersecurity. These achievements deepened my technical skills and enhanced my soft skills, preparing me for diverse challenges in the tech industry.",
+      "DIn 2023, I advanced my practical experience and professional development through two key internships—one in MERN stack development, focusing on full-stack web applications, gaining hands-on experience in mern stack aplications. I also completed several advanced courses and earned certifications from NPTEL, Salesforce, Cisco CCNA, and Cybersecurity. These achievements deepened my technical skills and enhanced my soft skills, preparing me for diverse challenges in the tech industry.",
     ],
   },
   {

@@ -58,7 +58,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am Prince Raj, a final year B.Tech student in Computer Science at Rashtrakavi Ramdhari Singh Dinkar College of Engineering. I specialize in blockchain development and full-stack web development, with skills in Java, Python, the MERN stack, and blockchain technologies like Ethereum, Solidity, Truffle, and MetaMask. My key projects include 'Swasthychain,' an open-source EHR system, and the conceptualization of 'Vidyodaya,' an edtech platform. I also have experience with Salesforce CRM, Data Warehousing, and Data Mining. Connect with me on GitHub and LinkedIn for my latest projects and contributions.
+        I am Prince Raj, a final year B.Tech student in Computer Science at Rashtrakavi Ramdhari Singh Dinkar College of Engineering. I specialize in MERN-STACK web development with skills in Java, Python, react.js, next.js, node.js, express.js, mongodb, mysql, and blockchain technologies like Ethereum, Solidity, Truffle, Ganache and MetaMask. My key projects include 'Swasthychain,' an open-source EHR system, and the conceptualization of 'Vidyodaya,' an edtech platform. I also have experience with Salesforce CRM, Data Warehousing, and Data Mining. Connect with me on GitHub and LinkedIn for my latest projects and contributions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
