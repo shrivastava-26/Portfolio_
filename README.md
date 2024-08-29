@@ -86,7 +86,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/shrivastava-26/Portfolio_.git
-cd project_3D_developer_portfolio
+cd portfolio
 ```
 
 **Installation**
